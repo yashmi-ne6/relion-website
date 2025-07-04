@@ -114,7 +114,7 @@ html{
 }
 #home::before{
     content: "";
-    background: url('../lion1.jpeg') no-repeat center center/cover;
+    background: url('lion1.jpeg') no-repeat center center/cover;
     position: absolute;
     height: 72%;
     width:100%;
