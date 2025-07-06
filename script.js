@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     // Wait for 5 seconds before hiding the splash screen
-    setTimeout(hideSplashScreen, 5000);
+    setTimeout(hideSplashScreen, 1000);
 });
 
 function hideSplashScreen() {
