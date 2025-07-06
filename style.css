@@ -329,10 +329,14 @@ button:hover {
 @media (max-width: 768px) {
   #navbar ul {
     align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
   }
 
   #navbar ul li a {
-    padding: 10px;
+    padding: 8px 10px;
+    font-size: 0.9rem;
   }
 
   #home {
@@ -382,7 +386,7 @@ button:hover {
     gap: 8px;
   }
   #navbar ul li a{
-    padding: 10px 12px;
-    font-size: 0.9rem;
+    padding: 6px 8px;
+    font-size: 0.8rem;
   }
 }
