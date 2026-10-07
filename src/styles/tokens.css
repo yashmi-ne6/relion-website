@@ -1,0 +1,39 @@
+/* =========================================================================
+   DESIGN TOKENS — Relion light editorial theme.
+   Ivory paper, Relion green ink, logo gold for fine details.
+   Colors are RGB channels so Tailwind opacity modifiers work (bg-sage/60).
+   ========================================================================= */
+:root {
+  /* ---------- Surfaces ---------- */
+  --color-ivory: 247 244 236;        /* #F7F4EC  page background             */
+  --color-paper: 251 250 246;        /* #FBFAF6  cards, badges               */
+  --color-sage: 233 238 231;         /* #E9EEE7  alternate bands, hover      */
+  --color-sand: 239 235 224;         /* #EFEBE0  footer                      */
+
+  /* ---------- Ink (text) ---------- */
+  --color-ink: 31 61 58;             /* #1F3D3A  Relion green — headings     */
+  --color-ink-soft: 52 80 76;        /* #34504C  paragraphs                  */
+  --color-muted: 94 107 102;         /* #5E6B66  captions, secondary         */
+
+  /* ---------- Gold ---------- */
+  --color-gold: 200 183 128;         /* #C8B780  logo gold — lines, dashes   */
+  --color-gold-display: 156 134 80;  /* #9C8650  big numerals, italic words  */
+  --color-gold-text: 122 104 56;     /* #7A6838  small gold labels (AA)      */
+
+  /* ---------- Lines ---------- */
+  --color-line: 217 210 191;         /* #D9D2BF  hairline dividers           */
+
+  /* ---------- Type ---------- */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* ---------- Layout ---------- */
+  --header-h: 88px;
+  --gutter: clamp(20px, 6vw, 88px);  /* page side padding                   */
+  --radius-card: 20px;
+  --ease: cubic-bezier(.22, .61, .36, 1);
+}
+
+@media (max-width: 767px) {
+  :root { --header-h: 72px; }
+}
